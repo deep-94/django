@@ -298,6 +298,12 @@ backends.
 
 * Support for PostGIS 3.0 is removed.
 
+
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
+
 Dropped support for PostgreSQL 13
 ---------------------------------
 
